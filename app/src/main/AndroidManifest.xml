@@ -3,7 +3,7 @@
     package="com.example.volleyphpnew">
 
     <uses-permission android:name="android.permission.INTERNET" />
-
+    <!--        while hosting we need to generate SSL Certificate.. System will not work-->
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
