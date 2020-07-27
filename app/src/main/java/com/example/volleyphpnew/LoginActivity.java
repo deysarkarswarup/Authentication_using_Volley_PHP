@@ -76,7 +76,7 @@ public class LoginActivity extends AppCompatActivity {
         EmailHolder = dataEmail.getText().toString().trim();
         PasswordHolder = dataPassword.getText().toString().trim();
 
-        String myurl = "http://192.168.43.12/VolleyPhp/login.php?email=" +
+        String myurl = "https://192.168.43.12/VolleyPhp/login.php?email=" +
                 "&email=" + EmailHolder + "&password=" + PasswordHolder;
 
         RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
