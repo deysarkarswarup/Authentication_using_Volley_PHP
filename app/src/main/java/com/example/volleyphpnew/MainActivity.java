@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         MobileHolder = dataMobile.getText().toString().trim();
         PasswordHolder = dataPassword.getText().toString().trim();
 
-        String myurl = "http://192.168.43.12/VolleyPhp/signup.php?name=" + NameHolder +
+        String myurl = "http://YOUR_IP_ADDRESS/VolleyPhp/signup.php?name=" + NameHolder +
                 "&email=" + EmailHolder + "&mobile="+MobileHolder + "&password=" + PasswordHolder;
 
         RequestQueue queue = Volley.newRequestQueue(getApplicationContext());
